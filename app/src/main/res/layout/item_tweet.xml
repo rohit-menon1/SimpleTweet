@@ -23,6 +23,17 @@
         android:text="rohitmenon18" />
 
     <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="27dp"
+        tools:text="1h" />
+
+
+    <TextView
         android:id="@+id/tvBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
