@@ -63,6 +63,7 @@ public class TimelineActivity extends AppCompatActivity {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
                 Log.i(TAG,"onLoadMore:"+page);
+
                 loadMoreData();
             }
         };
