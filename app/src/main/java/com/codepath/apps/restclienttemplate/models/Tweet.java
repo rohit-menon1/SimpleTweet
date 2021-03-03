@@ -32,6 +32,7 @@ public class Tweet {
         return tweets;
     }
     public String getRelativeTimestamp(){
+        //relative Time stamp
         return getTimeDifference(createdAt);
     }
 }
